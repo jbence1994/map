@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 
 import type { Coordinate } from '@/components/Coordinate.ts';
@@ -10,22 +11,32 @@ import coordinatesJson from '@/coordinates.example.json';
 import initialCoordinateJson from '@/initial-coordinate.example.json';
 
 const App = () => {
-  const initialCoordinate: InitialCoordinate = {
-    latitude: parseFloat(initialCoordinateJson[0].latitude),
-    longitude: parseFloat(initialCoordinateJson[0].longitude),
-  };
+  const initialCoordinate: InitialCoordinate = useMemo(
+    () => ({
+      latitude: parseFloat(initialCoordinateJson[0].latitude),
+      longitude: parseFloat(initialCoordinateJson[0].longitude),
+    }),
+    []
+  );
 
-  const coordinates: Coordinate[] = (coordinatesJson as CoordinateDto[]).map(
-    (coordinateDto) => ({
-      name: coordinateDto.name,
-      latitude: parseFloat(coordinateDto.latitude),
-      longitude: parseFloat(coordinateDto.longitude),
-    })
+  const coordinates: Coordinate[] = useMemo(
+    () =>
+      (coordinatesJson as CoordinateDto[]).map((coordinateDto) => ({
+        name: coordinateDto.name,
+        latitude: parseFloat(coordinateDto.latitude),
+        longitude: parseFloat(coordinateDto.longitude),
+      })),
+    []
   );
 
   return (
     <MapContainer
-      center={[initialCoordinate.latitude, initialCoordinate.longitude]}
+      center={
+        [initialCoordinate.latitude, initialCoordinate.longitude] as [
+          number,
+          number,
+        ]
+      }
       zoom={14}
       scrollWheelZoom={false}
     >
