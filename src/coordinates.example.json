@@ -1,6 +1,8 @@
 [
   {
-    "name": "Test",
+    "name": "name",
+    "address": "address",
+    "status": "status",
     "latitude": "51.505",
     "longitude": "-0.09"
   }

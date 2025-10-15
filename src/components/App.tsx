@@ -23,6 +23,8 @@ const App = () => {
     () =>
       (coordinatesJson as CoordinateDto[]).map((coordinateDto) => ({
         name: coordinateDto.name,
+        address: coordinateDto.address,
+        status: coordinateDto.status,
         latitude: parseFloat(coordinateDto.latitude),
         longitude: parseFloat(coordinateDto.longitude),
       })),
