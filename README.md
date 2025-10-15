@@ -23,7 +23,7 @@ bun install
     - to copy `.env.example` to `.env.local` and update it with your local settings parameters before running the
       application.
     - to copy `coordinates.example.json` to `coordinates.json` and update it with your coordinates for displaying on the
-      map.
+      map and follow the instructions in the TODO comment on line 7 in `App.tsx`.
 
 ### Starting application with Bun:
 

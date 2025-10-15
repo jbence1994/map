@@ -4,7 +4,8 @@ import type { Coordinate } from '@/components/Coordinate.ts';
 import type { CoordinateDto } from '@/components/CoordinateDto.ts';
 import MapMarker from '@/components/MapMarker.tsx';
 import { appConfig } from '@/config/app.config.ts';
-import data from '@/coordinates.json';
+// TODO: Replace this import with your local JSON: '@/coordinates.json'
+import data from '@/coordinates.example.json';
 
 const App = () => {
   const { initialLatitude, initialLongitude } = appConfig;
