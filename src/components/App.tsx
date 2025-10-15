@@ -2,15 +2,20 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 
 import type { Coordinate } from '@/components/Coordinate.ts';
 import type { CoordinateDto } from '@/components/CoordinateDto.ts';
+import type { InitialCoordinate } from '@/components/InitialCoordinate.ts';
 import MapMarker from '@/components/MapMarker.tsx';
-import { appConfig } from '@/config/app.config.ts';
 // TODO: Replace this import with your local JSON: '@/coordinates.json'
-import data from '@/coordinates.example.json';
+import coordinatesJson from '@/coordinates.example.json';
+// TODO: Replace this import with your local JSON: '@/initial-coordinate.json'
+import initialCoordinateJson from '@/initial-coordinate.example.json';
 
 const App = () => {
-  const { initialLatitude, initialLongitude } = appConfig;
+  const initialCoordinate: InitialCoordinate = {
+    latitude: parseFloat(initialCoordinateJson[0].latitude),
+    longitude: parseFloat(initialCoordinateJson[0].longitude),
+  };
 
-  const coordinates: Coordinate[] = (data as CoordinateDto[]).map(
+  const coordinates: Coordinate[] = (coordinatesJson as CoordinateDto[]).map(
     (coordinateDto) => ({
       name: coordinateDto.name,
       latitude: parseFloat(coordinateDto.latitude),
@@ -20,7 +25,7 @@ const App = () => {
 
   return (
     <MapContainer
-      center={[initialLatitude, initialLongitude]}
+      center={[initialCoordinate.latitude, initialCoordinate.longitude]}
       zoom={14}
       scrollWheelZoom={false}
     >

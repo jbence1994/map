@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 src/coordinates.json
+src/initial-coordinate.json
 
 # Editor directories and files
 .vscode/*
