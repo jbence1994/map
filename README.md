@@ -19,8 +19,11 @@ Run project locally
 bun install
 ```
 
-Be sure to copy `.env.example` to `.env.local` and update it with your local settings parameters before running the
-application.
+- Be sure
+    - to copy `.env.example` to `.env.local` and update it with your local settings parameters before running the
+      application.
+    - to copy `coordinates.example.json` to `coordinates.json` and update it with your coordinates for displaying on the
+      map.
 
 ### Starting application with Bun:
 
