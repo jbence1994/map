@@ -3,6 +3,8 @@ pub-map
 
 ### Map of pubs
 
+[![Continuous Integration](https://github.com/jbence1994/pub-map/actions/workflows/build.yaml/badge.svg)](https://github.com/jbence1994/pub-map/actions/workflows/build.yaml)
+
 Prerequisites
 -------------
 
