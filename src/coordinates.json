@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ámor Presszó",
+    "address": "6900 Makó, Szegedi utca 5",
+    "status": "Működik.",
+    "latitude": "46.2130629",
+    "longitude": "20.4718109"
+  },
+  {
+    "name": "Irányi Kocsma",
+    "address": "6900 Makó, Irányi utca 16",
+    "status": "Működik.",
+    "latitude": "46.2143538",
+    "longitude": "20.464301"
+  },
+  {
+    "name": "Matróz Söröző",
+    "address": "6900 Makó, Kossuth utca 1/A",
+    "status": "Működik.",
+    "latitude": "46.2198518",
+    "longitude": "20.477301"
+  },
+  {
+    "name": "Jéger Söröző",
+    "address": "6900 Makó, Megyeház utca 34",
+    "status": "Működik.",
+    "latitude": "46.2148511",
+    "longitude": "20.485601"
+  },
+  {
+    "name": "Foci Büfé",
+    "address": "6900 Makó, Aradi utca 9",
+    "status": "Bezárt.",
+    "latitude": "46.2144319",
+    "longitude": "20.4887303"
+  },
+  {
+    "name": "Manna Ház Söröző",
+    "address": "6900 Makó, Aradi utca 53",
+    "status": "Működik.",
+    "latitude": "46.2152225",
+    "longitude": "20.4939657"
+  },
+  {
+    "name": "Jéggyár",
+    "address": "6900 Makó, Aradi utca 79",
+    "status": "Bezárt.",
+    "latitude": "46.2158025",
+    "longitude": "20.4969912"
+  },
+  {
+    "name": "Kisfaludy Sörkert",
+    "address": "6900 Makó, Kisfaludy utca 35",
+    "status": "Bezárt.",
+    "latitude": "46.23001047",
+    "longitude": "20.4730977"
+  },
+  {
+    "name": "Ráday Sörkert / Pallas Pub / Garden Pub",
+    "address": "6900 Makó, Ráday utca 9",
+    "status": "Bezárt.",
+    "latitude": "46.2108999",
+    "longitude": "20.479359"
+  },
+  {
+    "name": "Holstein Söröző néven / #HelloMi / A Holi",
+    "address": "6900 Makó, Szegedi utca 18",
+    "status": "Bezárt.",
+    "latitude": "46.2120271",
+    "longitude": "20.470493"
+  },
+  {
+    "name": "Tulipán Söröző",
+    "address": "6900 Makó, Erdélyi püspök utca 60",
+    "status": "Bezárt.",
+    "latitude": "46.2201922",
+    "longitude": "20.490956"
+  },
+  {
+    "name": "Alma Presszó",
+    "address": "6900 Makó, Alma utca 2",
+    "status": "Bezárt.",
+    "latitude": "46.2240111",
+    "longitude": "20.482011"
+  },
+  {
+    "name": "Fáraó Söröző Játékterem",
+    "address": "6900 Makó, Állomás tér 15",
+    "status": "Bezárt.",
+    "latitude": "46.205081",
+    "longitude": "20.4745111"
+  },
+  {
+    "name": "Gondűző Kocsma",
+    "address": "6900 Makó, Szegedi utca 53",
+    "status": "Működik.",
+    "latitude": "46.2105599",
+    "longitude": "20.4643054"
+  },
+  {
+    "name": "Hatos Klub Kocsma",
+    "address": "6900 Makó, Szegedi utca 27",
+    "status": "Bezárt.",
+    "latitude": "46.2117795",
+    "longitude": "20.4685666"
+  },
+  {
+    "name": "Török Kocsma",
+    "address": "6900 Makó, Vásárhelyi utca 98",
+    "status": "Működik.",
+    "latitude": "46.2343117",
+    "longitude": "20.4796884"
+  },
+  {
+    "name": "London Pub & Cafe",
+    "address": "6900 Makó, Csokonai utca",
+    "status": "Bezárt.",
+    "latitude": "46.208649",
+    "longitude": "20.4760350"
+  },
+  {
+    "name": "Kossuth Söröző",
+    "address": "6900 Makó, Kossuth utca 12",
+    "status": "Bezárt.",
+    "latitude": "46.2205272",
+    "longitude": "20.4759494"
+  },
+  {
+    "name": "Arany Ászok Söröző",
+    "address": "6900 Makó, Petőfi utca ",
+    "status": "Működik.",
+    "latitude": "46.2127415",
+    "longitude": "20.4771300"
+  },
+  {
+    "name": "Taverna / Pandora Music Club",
+    "address": "6900 Makó, Hunyadi utca 2/A",
+    "status": "Bezárt.",
+    "latitude": "46.2142659",
+    "longitude": "20.4781520"
+  },
+  {
+    "name": "Almási Italbolt",
+    "address": "6900 Makó, Kisfaludy utca 28",
+    "status": "Működik.",
+    "latitude": "46.2297500",
+    "longitude": "20.4722685"
+  },
+  {
+    "name": "Malom Presszó",
+    "address": "6900 Makó, Attila utca 2",
+    "status": "Működik.",
+    "latitude": "46.2268795",
+    "longitude": "20.4775062"
+  },
+  {
+    "name": "Szép Söröző",
+    "address": "6900 Makó, Szép utca 28",
+    "status": "Bezárt.",
+    "latitude": "46.2183794",
+    "longitude": "20.4690643"
+  },
+  {
+    "name": "Italbolt",
+    "address": "6900 Makó, Váradi utca 48",
+    "status": "Működik.",
+    "latitude": "46.2319923",
+    "longitude": "20.4779481"
+  },
+  {
+    "name": "Holló Csárda",
+    "address": "6900 Makó, Almási utca 36",
+    "status": "Működik.",
+    "latitude": "46.2261163",
+    "longitude": "20.4675500"
+  },
+  {
+    "name": "Lesz Vigasz",
+    "address": "6900 Makó, Hosszú utca 64",
+    "status": "Ugyanezen a néven diszkonként tovább működik.",
+    "latitude": "46.2305099",
+    "longitude": "20.4893141"
+  },
+  {
+    "name": "Ácsi Söröző",
+    "address": "6900 Makó, Kolozsvári utca 2",
+    "status": "Működik.",
+    "latitude": "46.2247510",
+    "longitude": "20.4614455"
+  },
+  {
+    "name": "Muskátli Presszó",
+    "address": "6900 Makó, Almási utca 85",
+    "status": "Működik.",
+    "latitude": "46.2217119",
+    "longitude": "20.4613395"
+  },
+  {
+    "name": "Piktor Ivó",
+    "address": "6900 Makó, Ardics utca 11",
+    "status": "Működik.",
+    "latitude": "46.2175978",
+    "longitude": "20.4579803"
+  },
+  {
+    "name": "Diszkont Söröző / Sárga Csikó Italbolt",
+    "address": "6900 Makó, Justh Gyula utca 78",
+    "status": "2015 április 24.-ig működött, majd Sárga Csikó Italbolt néven nyitott újra és azóta is műkdöik.",
+    "latitude": "46.2316200",
+    "longitude": "20.4924369"
+  },
+  {
+    "name": "Fanta Kocsma",
+    "address": "6900 Makó, Kálvária utca 72",
+    "status": "Fanta ABC néven tovább működik.",
+    "latitude": "46.2234144",
+    "longitude": "20.4744732"
+  },
+  {
+    "name": "Csokonai Söröző",
+    "address": "6900 Makó, Csokonai utca 9",
+    "status": "Működik.",
+    "latitude": "46.2083623",
+    "longitude": "20.4756603"
+  },
+  {
+    "name": "Szőlőcsárda",
+    "address": "6900 Makó, Almási utca 69",
+    "status": "Bezárt.",
+    "latitude": "46.223001",
+    "longitude": "20.4637387"
+  },
+  {
+    "name": "?",
+    "address": "6900 Makó, Liget utca 24",
+    "status": "Működik.",
+    "latitude": "46.2097969",
+    "longitude": "20.4680022"
+  },
+  {
+    "name": "Bónusz kiskocsma",
+    "address": "6900 Makó, Strand körút 13",
+    "status": "Bezárt.",
+    "latitude": "46.1985119",
+    "longitude": "20.4717705"
+  },
+  {
+    "name": "Tó-csa Kocsma / Tócsa Bisztró",
+    "address": "6900 Makó, Deák Ferenc utca 24",
+    "status": "Működik.",
+    "latitude": "46.2176500",
+    "longitude": "20.4789534"
+  },
+  {
+    "name": "Piac Presszó",
+    "address": "6900 Makó, Deák Ferenc utca 41",
+    "status": "Működik.",
+    "latitude": "46.2178956",
+    "longitude": "20.4805999"
+  },
+  {
+    "name": "? Italbolt / Gold Pub & Óriáspalacsintázó",
+    "address": "6900 Makó, Deák Ferenc utca 53",
+    "status": "Bezárt.",
+    "latitude": "46.2185836",
+    "longitude": "20.4804501"
+  },
+  {
+    "name": "Úri Kocsma",
+    "address": "6900 Makó, Úri utca 3",
+    "status": "Bezárt.",
+    "latitude": "46.2160700",
+    "longitude": "20.4797999"
+  },
+  {
+    "name": "Szalon Kocsma",
+    "address": "6900 Makó, Móra Ferenc utca 11",
+    "status": "Működik.",
+    "latitude": "46.2166500",
+    "longitude": "20.4939386"
+  },
+  {
+    "name": "Kulacs Italbolt",
+    "address": "6900 Makó, Aradi utca 110",
+    "status": "Bezárt.",
+    "latitude": "46.2173683",
+    "longitude": "20.5034317"
+  },
+  {
+    "name": "Zöld Elefánt",
+    "address": "6900 Makó, Tulipán utca 50",
+    "status": "Működik.",
+    "latitude": "46.219668",
+    "longitude": "20.4949500"
+  },
+  {
+    "name": "Zöldfa Söröző",
+    "address": "6900 Makó, Kossuth utca 51",
+    "status": "Bezárt.",
+    "latitude": "46.2268550",
+    "longitude": "20.4809587"
+  },
+  {
+    "name": "Kaukk Büfé",
+    "address": "6900 Makó, Vásárhelyi utca 86",
+    "status": "Működik.",
+    "latitude": "46.2326594",
+    "longitude": "20.4797999"
+  },
+  {
+    "name": "Szieszta Presszó",
+    "address": "6900 Makó, Apaffy utca 5",
+    "status": "Bezárt.",
+    "latitude": "46.2156920",
+    "longitude": "20.4681000"
+  },
+  {
+    "name": "Zóna Büfé",
+    "address": "6900 Makó, Csanád vezér tér 33",
+    "status": "Bezárt.",
+    "latitude": "46.2194500",
+    "longitude": "20.4765750"
+  },
+  {
+    "name": "Inci Kocsmája",
+    "address": "6900 Makó, Makói utca 15",
+    "status": "Bezárt.",
+    "latitude": "46.3024000",
+    "longitude": "20.594470"
+  },
+  {
+    "name": "Füredi Italbolt",
+    "address": "6900 Makó, Czuczor utca 1",
+    "status": "Bezárt.",
+    "latitude": "46.2187500",
+    "longitude": "20.4569175"
+  }
+]

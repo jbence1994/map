@@ -10,8 +10,8 @@ import type { Coordinate } from '@/components/Coordinate.ts';
 import type { CoordinateDto } from '@/components/CoordinateDto.ts';
 import type { MapContainer as MapContainerObject } from '@/components/MapContainer.ts';
 import MapMarker from '@/components/MapMarker.tsx';
-import coordinatesJson from '@/coordinates.example.json';
-import mapContainerJson from '@/map-container.example.json';
+import coordinatesJson from '@/coordinates.json';
+import mapContainerJson from '@/map-container.json';
 
 import 'leaflet/dist/leaflet.css';
 
