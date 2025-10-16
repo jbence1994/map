@@ -10,9 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-*.local
-src/coordinates.json
-src/map-container.json
+*.local*
 
 # Editor directories and files
 .vscode/*

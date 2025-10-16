@@ -5,9 +5,7 @@ import type { Coordinate } from '@/components/Coordinate.ts';
 import type { CoordinateDto } from '@/components/CoordinateDto.ts';
 import type { MapContainer as MapContainerObject } from '@/components/MapContainer.ts';
 import MapMarker from '@/components/MapMarker.tsx';
-// TODO: Replace this import with your local JSON: '@/coordinates.json'
 import coordinatesJson from '@/coordinates.example.json';
-// TODO: Replace this import with your local JSON: '@/map-container.json'
 import mapContainerJson from '@/map-container.example.json';
 
 const App = () => {
