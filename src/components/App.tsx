@@ -1,6 +1,11 @@
 import { useMemo } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 
+import L from 'leaflet';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
 import type { Coordinate } from '@/components/Coordinate.ts';
 import type { CoordinateDto } from '@/components/CoordinateDto.ts';
 import type { MapContainer as MapContainerObject } from '@/components/MapContainer.ts';
@@ -8,7 +13,16 @@ import MapMarker from '@/components/MapMarker.tsx';
 import coordinatesJson from '@/coordinates.example.json';
 import mapContainerJson from '@/map-container.example.json';
 
+import 'leaflet/dist/leaflet.css';
+
 const App = () => {
+  delete (L.Icon.Default.prototype as any)._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: markerIcon2x,
+    iconUrl: markerIcon,
+    shadowUrl: markerShadow,
+  });
+
   const mapContainerObject: MapContainerObject = useMemo(
     () => ({
       title: mapContainerJson[0].title,
