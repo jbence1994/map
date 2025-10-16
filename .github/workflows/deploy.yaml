@@ -2,7 +2,7 @@ name: Build and Deploy to jbence1994.github.io
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gh-page-release ]
   workflow_dispatch:
 
 permissions:
