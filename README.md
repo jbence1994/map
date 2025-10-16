@@ -19,11 +19,7 @@ Run project locally
 bun install
 ```
 
-- Be sure
-    - to copy `.env.example` to `.env.local` and update it with your local settings parameters before running the
-      application.
-    - to copy `coordinates.example.json` to `coordinates.json` and update it with your coordinates for displaying on the
-      map and follow the instructions in the TODO comment on line 7 in `App.tsx`.
+Be sure to copy `*.example.json` files to `*.local.json` and update it with your local data for displaying on the map.
 
 ### Starting application with Bun:
 
