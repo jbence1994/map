@@ -5,7 +5,7 @@ map
 
 [![Continuous Integration](https://github.com/jbence1994/map/actions/workflows/build.yaml/badge.svg)](https://github.com/jbence1994/map/actions/workflows/build.yaml)
 
-[![Build and Deploy to jbence1994.github.io](https://github.com/jbence1994/map/actions/workflows/deploy.yaml.yml/badge.svg)](https://github.com/jbence1994/map/actions/workflows/deploy.yaml.yml)
+[![Build and Deploy to jbence1994.github.io](https://github.com/jbence1994/map/actions/workflows/deploy.yaml/badge.svg)](https://github.com/jbence1994/map/actions/workflows/deploy.yaml)
 
 Prerequisites
 -------------
