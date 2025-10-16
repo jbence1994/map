@@ -2,8 +2,7 @@ name: Build and Deploy to jbence1994.github.io
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -29,10 +28,10 @@ jobs:
       - name: Build
         run: bun run build
 
-      - name: Deploy to username.github.io repo
+      - name: Deploy to jbence1994.github.io repository
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./dist
           publish_branch: main
           external_repository: jbence1994/jbence1994.github.io
