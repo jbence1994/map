@@ -1,0 +1,38 @@
+name: Build and Deploy to jbence1994.github.io
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2.0.2
+        with:
+          bun-version-file: ".bun-version"
+
+      - name: Install deps
+        run: bun install
+
+      - name: Build
+        run: bun run build
+
+      - name: Deploy to username.github.io repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: main
+          external_repository: jbence1994/jbence1994.github.io
