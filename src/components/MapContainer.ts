@@ -1,5 +1,6 @@
 export type MapContainer = {
-  latitude: number;
-  longitude: number;
+  title: string;
+  initialLatitude: number;
+  initialLongitude: number;
   zoom: number;
 };
