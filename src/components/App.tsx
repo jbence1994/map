@@ -11,10 +11,11 @@ import coordinatesJson from '@/coordinates.example.json';
 import mapContainerJson from '@/map-container.example.json';
 
 const App = () => {
-  const mapContainer: MapContainerObject = useMemo(
+  const mapContainerObject: MapContainerObject = useMemo(
     () => ({
-      latitude: parseFloat(mapContainerJson[0].latitude),
-      longitude: parseFloat(mapContainerJson[0].longitude),
+      title: mapContainerJson[0].title,
+      initialLatitude: parseFloat(mapContainerJson[0].initialLatitude),
+      initialLongitude: parseFloat(mapContainerJson[0].initialLongitude),
       zoom: parseInt(mapContainerJson[0].zoom),
     }),
     []
@@ -32,20 +33,25 @@ const App = () => {
     []
   );
 
+  const { title, initialLatitude, initialLongitude, zoom } = mapContainerObject;
+
   return (
-    <MapContainer
-      center={[mapContainer.latitude, mapContainer.longitude]}
-      zoom={mapContainer.zoom}
-      scrollWheelZoom={false}
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {coordinates.map((coordinate, index) => (
-        <MapMarker key={index} coordinate={coordinate} />
-      ))}
-    </MapContainer>
+    <div className="map-wrapper">
+      <MapContainer
+        center={[initialLatitude, initialLongitude]}
+        zoom={zoom}
+        scrollWheelZoom={false}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {coordinates.map((coordinate, index) => (
+          <MapMarker key={index} coordinate={coordinate} />
+        ))}
+      </MapContainer>
+      <h1 className="map-title">{title}</h1>
+    </div>
   );
 };
 

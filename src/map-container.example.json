@@ -1,7 +1,8 @@
 [
   {
-    "latitude": "51.505",
-    "longitude": "-0.09",
+    "title": "Test",
+    "initialLatitude": "51.505",
+    "initialLongitude": "-0.09",
     "zoom": "15"
   }
 ]
