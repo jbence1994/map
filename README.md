@@ -1,9 +1,9 @@
-pub-map
+map
 =======
 
-### Map of pubs
+### Configurable Leaflet map template
 
-[![Continuous Integration](https://github.com/jbence1994/pub-map/actions/workflows/build.yaml/badge.svg)](https://github.com/jbence1994/pub-map/actions/workflows/build.yaml)
+[![Continuous Integration](https://github.com/jbence1994/map/actions/workflows/build.yaml/badge.svg)](https://github.com/jbence1994/map/actions/workflows/build.yaml)
 
 Prerequisites
 -------------
