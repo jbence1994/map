@@ -231,7 +231,7 @@
     "longitude": "20.4637387"
   },
   {
-    "name": "?",
+    "name": "Fini Kocsma",
     "address": "6900 Makó, Liget utca 24",
     "status": "Működik.",
     "latitude": "46.2097969",
@@ -334,5 +334,12 @@
     "status": "Bezárt.",
     "latitude": "46.2187500",
     "longitude": "20.4569175"
+  },
+  {
+    "name": "Paradicsom Kis Kocsma",
+    "address": "6900 Makó, Gyóni Géza utca 55",
+    "status": "Működik.",
+    "latitude": "46.2258022",
+    "longitude": "20.4899964"
   }
 ]
