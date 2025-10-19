@@ -42,7 +42,7 @@
     "longitude": "20.4939657"
   },
   {
-    "name": "Jéggyár",
+    "name": "Jéggyár Presszó",
     "address": "6900 Makó, Aradi utca 79",
     "status": "Bezárt.",
     "latitude": "46.2158025",
@@ -334,5 +334,19 @@
     "status": "Bezárt.",
     "latitude": "46.2187500",
     "longitude": "20.4569175"
+  },
+  {
+    "name": "Wekerle Söröző",
+    "address": "6900 Makó, Wekerle utca 16",
+    "status": "Működik.",
+    "latitude": "46.2194510",
+    "longitude": "20.5033000"
+  },
+  {
+    "name": "Pepsi Presszó",
+    "address": "6900 Makó, Aradi utca 20",
+    "status": "Bezárt.",
+    "latitude": "46.214899",
+    "longitude": "20.4905435"
   }
 ]
