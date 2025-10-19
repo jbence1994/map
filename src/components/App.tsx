@@ -59,7 +59,16 @@ const App = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {coordinates.map((coordinate, index) => (
-          <MapMarker key={index} coordinate={coordinate} />
+          <MapMarker
+            key={index}
+            markerLatitude={coordinate.latitude}
+            markerLongitude={coordinate.longitude}
+            popupTitle={coordinate.name}
+            popupContent={[
+              { key: 'Cím: ', value: coordinate.address },
+              { key: 'Státusz: ', value: coordinate.status },
+            ]}
+          />
         ))}
       </MapContainer>
       <h1 className="map-title">{title}</h1>
