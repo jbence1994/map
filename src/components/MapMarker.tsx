@@ -1,28 +1,30 @@
 import { Marker, Popup } from 'react-leaflet';
 
-import type { Coordinate } from '@/components/Coordinate.ts';
+import type { KeyValuePair } from '@/components/KeyValuePair.ts';
 
 type Props = {
-  coordinate: Coordinate;
+  markerLatitude: number;
+  markerLongitude: number;
+  popupTitle: string;
+  popupContent: KeyValuePair<string, string>[];
 };
 
-const MapMarker = ({ coordinate }: Props) => {
-  const renderBoldSpan = (content: string) => {
-    return <span style={{ fontWeight: 'bold' }}>{content}</span>;
-  };
-
+const MapMarker = ({
+  markerLatitude,
+  markerLongitude,
+  popupTitle,
+  popupContent,
+}: Props) => {
   return (
-    <Marker position={[coordinate.latitude, coordinate.longitude]}>
+    <Marker position={[markerLatitude, markerLongitude]}>
       <Popup>
-        <h2>{coordinate.name}</h2>
-        <p>
-          {renderBoldSpan('Cím: ')}
-          {coordinate.address}
-        </p>
-        <p>
-          {renderBoldSpan('Státusz: ')}
-          {coordinate.status}
-        </p>
+        <h2>{popupTitle}</h2>
+        {popupContent.map((item, index) => (
+          <p key={index}>
+            <span style={{ fontWeight: 'bold' }}>{item.key}</span>
+            {item.value}
+          </p>
+        ))}
       </Popup>
     </Marker>
   );
