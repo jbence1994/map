@@ -7,15 +7,20 @@ type Props = {
 };
 
 const MapMarker = ({ coordinate }: Props) => {
+  const renderBoldSpan = (content: string) => {
+    return <span style={{ fontWeight: 'bold' }}>{content}</span>;
+  };
+
   return (
     <Marker position={[coordinate.latitude, coordinate.longitude]}>
       <Popup>
         <h2>{coordinate.name}</h2>
         <p>
-          <span style={{ fontWeight: 'bold' }}>Cím:</span> {coordinate.address}
+          {renderBoldSpan('Cím: ')}
+          {coordinate.address}
         </p>
         <p>
-          <span style={{ fontWeight: 'bold' }}>Státusz:</span>
+          {renderBoldSpan('Státusz: ')}
           {coordinate.status}
         </p>
       </Popup>
