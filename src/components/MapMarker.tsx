@@ -15,7 +15,7 @@ const MapMarker = ({ coordinate }: Props) => {
           <span style={{ fontWeight: 'bold' }}>Cím:</span> {coordinate.address}
         </p>
         <p>
-          <span style={{ fontWeight: 'bold' }}>Státusz:</span>{' '}
+          <span style={{ fontWeight: 'bold' }}>Státusz:</span>
           {coordinate.status}
         </p>
       </Popup>
