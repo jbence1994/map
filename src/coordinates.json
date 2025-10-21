@@ -355,5 +355,33 @@
     "status": "Bezárt.",
     "latitude": "46.214899",
     "longitude": "20.4905435"
+  },
+  {
+    "name": "?",
+    "address": "6900 Makó, Hajnal utca 18",
+    "status": "Bezárt.",
+    "latitude": "46.217887",
+    "longitude": "20.4818699"
+  },
+  {
+    "name": "Búzavirág Kocsma",
+    "address": "6900 Makó, Királyhegyesi utca 25",
+    "status": "Bezárt.",
+    "latitude": "46.2216546",
+    "longitude": "20.4995333"
+  },
+  {
+    "name": "Malibu Kávéző",
+    "address": "6900 Makó, Megyeház utca 9",
+    "status": "Bezárt.",
+    "latitude": "46.2144500",
+    "longitude": "20.4799600"
+  },
+  {
+    "name": "Pityóka Kocsma",
+    "address": "6900 Makó, Tulipán utca 39",
+    "status": "Bezárt.",
+    "latitude": "46.220123",
+    "longitude": "20.4929100"
   }
 ]
